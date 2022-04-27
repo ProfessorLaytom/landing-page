@@ -127,25 +127,34 @@ h2 {
     display: flex;
     padding: 80px 200px 80px 200px;
     justify-content: center;
+    gap: 0 30px;
+
 }
 
 .quote-container>img {
     height: 200px;
-    width: auto;
+    width: 200px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
+    width: 500px;
+    align-self: flex-start;
 }
 
 .quotation {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .source {
     align-self: flex-end;
+    font-weight: bold;
+    color: black;
 }
