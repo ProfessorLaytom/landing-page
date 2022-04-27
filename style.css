@@ -33,6 +33,10 @@ a {
     font-size: 18px;
 }
 
+a:hover {
+    color: #bbba9a;
+}
+
 .hero {
     display: flex;
     padding-bottom: 80px;
@@ -157,4 +161,47 @@ h2 {
     align-self: flex-end;
     font-weight: bold;
     color: black;
+}
+
+.bottom {
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    width: fit-content;
+    flex: 0 1 auto;
+    padding: 20px;
+    border-radius: 10px;
+    align-self: center;
+    gap: 20px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup>* {
+    margin: 0;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.last-button {
+    border-color: #E5E7EB;
+    border: 2px solid;
+    margin: 0;
+}
+
+.footer {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
 }
